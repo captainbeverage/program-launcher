@@ -87,7 +87,7 @@ int main() {
 	cout << "-------------------------------------------------" << endl;
 	cout << "Enter command: ";
 
-	//Gets input from the use
+	//Gets input from the user
 	cin.getline(cmd, 100);
 
 	// Parses the user's input

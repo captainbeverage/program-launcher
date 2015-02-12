@@ -94,7 +94,7 @@ int main() {
 	parse(cmd, tokens);
 
 	// Continues running programs and getting input while the user doesn't enter "exit"
-	while(strcmp(tokens[0], "exit") != 0) {
+	while(strcmp(*tokens, "exit") != 0) {
 		// Launches the program based on the parsed tokens
 		launch(tokens);
 

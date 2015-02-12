@@ -4,6 +4,8 @@
   parameters the program requires. For example, the user can run ls, pwd, date, 
   git status, git add <filename>, etc. and the program will launch with any 
   arguments provided.
+
+  Authors: Jordan Harris, Erik Crosby, Mike Ries
 **/
 
 #include <iostream>

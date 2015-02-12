@@ -78,7 +78,7 @@ int main() {
 	char cmd[100];
 	char* tokens[100];
 
-	// Gets input from the user
+	// Provides instructions to the user
 	cout << "-------------------------------------------------" << endl;
 	cout << "                PROGRAM LAUNCHER" << endl;
 	cout << "-------------------------------------------------" << endl;
@@ -86,6 +86,8 @@ int main() {
 	cout << "Type 'exit' to quit" << endl;
 	cout << "-------------------------------------------------" << endl;
 	cout << "Enter command: ";
+
+	//Gets input from the user
 	cin.getline(cmd, 100);
 
 	// Parses the user's input

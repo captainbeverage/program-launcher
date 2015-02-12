@@ -55,13 +55,13 @@ int main() {
 	while(strcmp(tokens[0], "exit") != 0) {
 		launch(tokens);
 
-		cout << "\nEnter command: ";
+		cout << "Enter command: ";
 		cin.getline(cmd, 100);
 
 		parse(cmd, tokens);
 	}
 
-	cout << "\nExiting program..." << endl;
+	cout << "Exiting program..." << endl;
 
 	return 0;
 }

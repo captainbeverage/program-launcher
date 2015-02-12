@@ -79,6 +79,12 @@ int main() {
 	char* tokens[100];
 
 	// Gets input from the user
+	cout << "-------------------------------------------------" << endl;
+	cout << "                PROGRAM LAUNCHER" << endl;
+	cout << "-------------------------------------------------" << endl;
+	cout << "Type program name and arguments to launch program" << endl;
+	cout << "Type 'exit' to quit" << endl;
+	cout << "-------------------------------------------------" << endl;
 	cout << "Enter command: ";
 	cin.getline(cmd, 100);
 
@@ -97,7 +103,7 @@ int main() {
 	}
 
 	// Lets the user know the program has ended
-	cout << "Exiting program..." << endl;
+	cout << "Exiting PROGRAM LAUNCHER..." << endl;
 
 	return 0;
 }
